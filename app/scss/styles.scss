@@ -58,7 +58,7 @@ html, body, .main {
 
 body {
 	-webkit-transition: background-color 1000ms linear;
-	background-color: rgb(255, 255, 255);
+    background-color: #212127;
 	overflow: hidden;
 
   	-webkit-transform-style: preserve-3d;
@@ -84,7 +84,7 @@ textarea {
 	box-shadow: 0px 2px 1px rgba( 0, 0, 0, 0.1 );
 	margin-left: -25px;
 	border-radius: 100%;
-	background: #fff;
+    background-color: #212127;
 	position: fixed;
 	cursor: pointer;
 	height: 50px;
@@ -104,7 +104,7 @@ textarea {
 		width: 100%;
 
 		path {
-			fill: #111;
+			fill: #e3dcce;
 		}
 	}
 }
@@ -191,7 +191,7 @@ $squareWidth: 10px;
 		position: absolute;
 		text-align: center;
 		border-radius: 5px;
-		background: #fff;
+		background-color: #212127;
 		overflow: hidden;
 		z-index: 2;
 		height: 430px;
@@ -251,7 +251,6 @@ $squareWidth: 10px;
 					text-decoration: none;
 					position: absolute;
 					line-height: 100%;
-					color: #fff;
 					width: 100%;
 
 					&.large {
@@ -277,7 +276,6 @@ $squareWidth: 10px;
 				position: absolute;
 				height: 100%;
 				width: 100%;
-				color: #fff;
 				opacity: 0;
 				left: 0px;
 				top: 0px;
@@ -318,7 +316,7 @@ $squareWidth: 10px;
 				border-radius: 5px;
 				margin-top: 100px;
 				padding-top: 50px;
-				background: #fff;
+				background-color: #212127;
 				height: 180px;
 				width: 150px;
 				opacity: 0;
@@ -348,7 +346,7 @@ $squareWidth: 10px;
 					margin-top: 15px;
 					font-size: 11px;
 					display: block;
-					color: black;
+					color: #e9e3d5;
 					width: 100%;
 				}
 			}
@@ -371,7 +369,7 @@ $squareWidth: 10px;
 				.left-part, .right-part {
 					width: 50%;
 					height: 100%;
-					background: #fff;
+					background-color: #212127;
 				}
 
 				.left-part {
@@ -388,12 +386,12 @@ $squareWidth: 10px;
 					height: 10px;
 					width: 30px;
 					float: left;
-					fill: #fff;
+					fill: #212127;
 				}
 			}
 
 			.bottom-bottom-container {
-				background: #fff;
+				background-color: #212127;
 				height: 90px;
 
 				.font-details {
@@ -406,20 +404,20 @@ $squareWidth: 10px;
 						text-transform: uppercase;
 						letter-spacing: 0.5px;
 						font-size: 15px;
-						color: #000;
+						color: #e9e3d5;
 					}
 
 					.creator {
 						letter-spacing: 0.4px;
 						margin-top: 4px;
 						font-size: 12px;
-						color: #cccccc;
+						color: #d5ccba;
 					}
 				}
 			}
 
 			.eye-container {
-				background: #fff;
+				background-color: #212127;
 				height: 70px;
 
 				.eye {
@@ -498,7 +496,7 @@ $squareWidth: 10px;
 		font-weight: bold;
 		padding-top: 14px;
 		font-size: 25px;
-		color: #000;
+		color: #e9e3d5;
 	}
 
 	.creator {
@@ -507,7 +505,7 @@ $squareWidth: 10px;
 		font-weight: bold;
 		padding-top: 4px;
 		font-size: 13px;
-		color: #ccc;
+		color: #d5ccba;
 	}
 }
 
@@ -548,7 +546,7 @@ footer {
 		.footer-bottom {
 			padding-right: 30px;
 			padding-left: 30px;
-			background: #fff;
+			background-color: #212127;
 			height: 70px;
 
 			.logo {
@@ -556,14 +554,14 @@ footer {
 				text-decoration: none;
 				font-weight: bold;
 				font-size: 20px;
-				color: #000;
+				color: #e9e3d5;
 				float: left;
 				margin-top: 9px;
 				display: block;
 
 				span {
 					font-weight: normal;
-					color: #b2d4dc;
+					color: #b6cfd0;
 				}
 			}
 
@@ -577,7 +575,7 @@ footer {
 
 				a {
 					text-decoration: none;
-					color: #bb84a6;
+					color: #bf96aa;
 
 					&:hover {
 						text-decoration: underline;
@@ -592,14 +590,14 @@ footer {
 	}
 
 	.the-rest {
-		background: #fff;
+		background-color: #212127;
 		height: 100%;
 	}
 
 	.left-part, .right-part {
 		width: 50%;
 		height: 15px;
-		background: #fff;
+		background-color: #212127;
 	}
 
 	.left-part {
@@ -614,7 +612,7 @@ footer {
 
 	svg {
 		float: left;
-		fill: #fff;
+		fill: #212127;
 	}
 
 	.share {

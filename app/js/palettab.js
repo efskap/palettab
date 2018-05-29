@@ -80,7 +80,7 @@ var Palettab = (function() {
 
         // Nice, a ton of setTimeouts. Cool Tim, What were you thinking?
         setTimeout( function() {
-            body.style.backgroundColor = '#f8f8f8'; // This fades in the bg color.
+            body.style.backgroundColor = '#212127'; // This fades in the bg color.
             assignFirstColorSet();
             loader( colorSet.colors );
         }, 0 );
@@ -326,7 +326,18 @@ var Palettab = (function() {
 
         assignColors( colorSet );
     }
+    function textColorFor(color){
+        var c = color.substring(1);      // strip #
+        var rgb = parseInt(c, 16);   // convert rrggbb to decimal
+        var r = (rgb >> 16) & 0xff;  // extract red
+        var g = (rgb >>  8) & 0xff;  // extract green
+        var b = (rgb >>  0) & 0xff;  // extract blue
 
+        var luma = 0.2126 * r + 0.7152 * g + 0.0722 * b; // per ITU-R BT.709
+        // https://trendct.org/2016/01/22/how-to-choose-a-label-color-to-contrast-with-background/
+        //if only first half of color is defined, repeat it
+        return luma > 216 ? '#212127' : '#fbf7f1';
+    };
     function assignColors( set ) {
 
         var colorSet = set.colors;
@@ -342,6 +353,7 @@ var Palettab = (function() {
             }
 
             var hashColor = '#' + colorSet[i];
+            card.colorWrapper.style.color = textColorFor(hashColor);
             card.main.setAttribute( 'data-color', hashColor );
             card.colorWrapper.style.backgroundColor = hashColor;
             card.hex.innerHTML = hashColor;

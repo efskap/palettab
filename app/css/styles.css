@@ -28,7 +28,7 @@ html, body, .main {
 
 body {
   -webkit-transition: background-color 1000ms linear;
-  background-color: white;
+  background-color: #212127;
   overflow: hidden;
   -webkit-transform-style: preserve-3d;
   -webkit-perspective: 1800px; }
@@ -48,7 +48,7 @@ textarea {
   box-shadow: 0px 2px 1px rgba(0, 0, 0, 0.1);
   margin-left: -25px;
   border-radius: 100%;
-  background: #fff;
+  background-color: #212127;
   position: fixed;
   cursor: pointer;
   height: 50px;
@@ -64,7 +64,7 @@ textarea {
     height: 100%;
     width: 100%; }
     .reload svg path {
-      fill: #111; }
+      fill: #e3dcce; }
 
 .loader {
   -webkit-transform: translate3d(-50%, -50%, 0px);
@@ -122,7 +122,7 @@ textarea {
     position: absolute;
     text-align: center;
     border-radius: 5px;
-    background: #fff;
+    background-color: #212127;
     overflow: hidden;
     z-index: 2;
     height: 430px;
@@ -169,7 +169,6 @@ textarea {
           text-decoration: none;
           position: absolute;
           line-height: 100%;
-          color: #fff;
           width: 100%; }
           .card-holster .card .top-half .font-container .sample-container.large {
             bottom: 60px; }
@@ -189,7 +188,6 @@ textarea {
         position: absolute;
         height: 100%;
         width: 100%;
-        color: #fff;
         opacity: 0;
         left: 0px;
         top: 0px; }
@@ -221,7 +219,7 @@ textarea {
         border-radius: 5px;
         margin-top: 100px;
         padding-top: 50px;
-        background: #fff;
+        background-color: #212127;
         height: 180px;
         width: 150px;
         opacity: 0;
@@ -244,7 +242,7 @@ textarea {
           margin-top: 15px;
           font-size: 11px;
           display: block;
-          color: black;
+          color: #e9e3d5;
           width: 100%; }
     .card-holster .card .bottom-half {
       -webkit-transition: -webkit-transform 300ms ease;
@@ -261,7 +259,7 @@ textarea {
         .card-holster .card .bottom-half .sexy-tricky-to-code-dip .left-part, .card-holster .card .bottom-half .sexy-tricky-to-code-dip .right-part {
           width: 50%;
           height: 100%;
-          background: #fff; }
+          background-color: #212127; }
         .card-holster .card .bottom-half .sexy-tricky-to-code-dip .left-part {
           margin-left: -15px;
           float: left; }
@@ -272,9 +270,9 @@ textarea {
           height: 10px;
           width: 30px;
           float: left;
-          fill: #fff; }
+          fill: #212127; }
       .card-holster .card .bottom-half .bottom-bottom-container {
-        background: #fff;
+        background-color: #212127;
         height: 90px; }
         .card-holster .card .bottom-half .bottom-bottom-container .font-details {
           -webkit-transition: opacity 300ms ease;
@@ -285,14 +283,14 @@ textarea {
             text-transform: uppercase;
             letter-spacing: 0.5px;
             font-size: 15px;
-            color: #000; }
+            color: #e9e3d5; }
           .card-holster .card .bottom-half .bottom-bottom-container .font-details .creator {
             letter-spacing: 0.4px;
             margin-top: 4px;
             font-size: 12px;
-            color: #cccccc; }
+            color: #d5ccba; }
       .card-holster .card .bottom-half .eye-container {
-        background: #fff;
+        background-color: #212127;
         height: 70px; }
         .card-holster .card .bottom-half .eye-container .eye {
           -webkit-transition: all 300ms ease;
@@ -342,14 +340,14 @@ textarea {
     font-weight: bold;
     padding-top: 14px;
     font-size: 25px;
-    color: #000; }
+    color: #e9e3d5; }
   .palette-info .creator {
     text-decoration: none;
     letter-spacing: 0.8px;
     font-weight: bold;
     padding-top: 4px;
     font-size: 13px;
-    color: #ccc; }
+    color: #d5ccba; }
 
 .the-i {
   position: absolute;
@@ -381,20 +379,20 @@ footer {
     footer .footer-item .footer-bottom {
       padding-right: 30px;
       padding-left: 30px;
-      background: #fff;
+      background-color: #212127;
       height: 70px; }
       footer .footer-item .footer-bottom .logo {
         letter-spacing: 0.8px;
         text-decoration: none;
         font-weight: bold;
         font-size: 20px;
-        color: #000;
+        color: #e9e3d5;
         float: left;
         margin-top: 9px;
         display: block; }
         footer .footer-item .footer-bottom .logo span {
           font-weight: normal;
-          color: #b2d4dc; }
+          color: #b6cfd0; }
       footer .footer-item .footer-bottom .about {
         -webkit-transform: translateX(-50%);
         letter-spacing: 0.5px;
@@ -404,18 +402,18 @@ footer {
         left: 50%; }
         footer .footer-item .footer-bottom .about a {
           text-decoration: none;
-          color: #bb84a6; }
+          color: #bf96aa; }
           footer .footer-item .footer-bottom .about a:hover {
             text-decoration: underline; }
   footer .top-dip-thingo {
     height: 15px; }
   footer .the-rest {
-    background: #fff;
+    background-color: #212127;
     height: 100%; }
   footer .left-part, footer .right-part {
     width: 50%;
     height: 15px;
-    background: #fff; }
+    background-color: #212127; }
   footer .left-part {
     margin-left: -23px;
     float: left; }
@@ -424,7 +422,7 @@ footer {
     float: right; }
   footer svg {
     float: left;
-    fill: #fff; }
+    fill: #212127; }
   footer .share {
     margin-top: 7px;
     float: right; }
